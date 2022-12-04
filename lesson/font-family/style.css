@@ -1,0 +1,59 @@
+       /* online font-family berish */
+/* 1-link orqali <head> ni ichiga tashlanadi 
+   2-import orqali css ga tashlanadi oxshamadi */
+h1{
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(191, 59, 221);
+}
+h3{
+    font-size: 24px;
+}
+
+
+/* import bilan berish oxshamadi menda */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+h2{
+    font-size: 30px;
+}
+.mulish-h2{
+    font-family: 'Mulish', sans-serif;
+}
+
+.rubik-h2{
+    font-family: 'Rubik Microbe', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+.dancing{
+    font-family: 'Dancing Script', cursive;
+} */
+
+      /* ofline font-family berish */
+
+@font-face {
+    font-family: tittle;
+    src: url(./font/Great_Vibes/GreatVibes-Regular.ttf);
+}
+ @font-face {
+    font-family: kausha;
+    src: url(./font/Kaushan_Script/KaushanScript-Regular.ttf);
+ }
+.dancing{
+    font-family: tittle;
+}
+.rubik-marker{
+    font-family: kausha;
+}
+.cinzel{
+    font-family: tittle;
+}
